@@ -160,7 +160,7 @@ hist(day_sum1, breaks=10, col="royalblue",
 
 ![plot of chunk histogram_New](figure/histogram_New2.png) 
 
-#### Q: Do these values differ from the estimates from the first part of the assignment?
+
 
 ```r
 # Summary before imputing
@@ -182,11 +182,14 @@ summary(day_sum1)
 ##      41    6780   10400    9370   12800   21200
 ```
 
-#### A: The mean and median and the histogram are about the same. However the minimum and mean have slightly increased.
+Q: Do these values differ from the estimates from the first part of the assignment?
 
-#### Q: What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
-#### A: The data is less biased.
+A: The mean and median and the histogram are about the same. However the minimum and mean have slightly increased.
+
+Q. What is the impact of imputing missing data on the estimates of the total daily number of steps?
+
+A: The data is less biased.
 
 
 ### Calculate and report the mean and median total number of steps taken per day.
@@ -241,7 +244,7 @@ dfWD <- data.frame(avgWD, IntervalWD)
 dfWE <- data.frame(avgWE, IntervalWE)
 ```
 
-#### Plot the 5-minute interval (x-axis) and the average number of steps taken, averaged across all #### weekday days or weekend days (y-axis).
+#### Plot the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).
 
 ```r
 # Add a column to the data frames that include weekdays and weekend days
